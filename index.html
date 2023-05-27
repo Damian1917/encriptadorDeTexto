@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="script.js" defer></script>
+        <div id="encabezado">
+            <h1 id="titulo">Encriptador de Texto</h1>
+        </div>
+
+        <main id="proceso">
+            <input type="text" placeholder="Ingrese el texto" required id="input-texto">
+            <div id="botones">
+                <button id="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button id="invicible"></button>
+                <button id="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </main>
+
+        <div id="imprimir">
+            <textarea readonly id="area-texto">
+
+            </textarea>
+        </div>
+ 
+        <footer>
+            <p>Por: Damián Santiago Montero</p>
+            <p>ONE Grupo 5</p>
+            <p>2023</p>
+        </footer>
+         
+    </body>
+</html>

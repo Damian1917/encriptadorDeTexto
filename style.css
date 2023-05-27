@@ -1,0 +1,108 @@
+html {
+    background-color: rgb(202, 230, 255);
+}
+
+#encabezado {
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    font-size: 80px;
+    padding: 30px 0;
+    margin: 0 0 50px;
+}
+
+#input-texto {
+    display: block;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding: 0 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color: rgb(174, 216, 252);
+}
+
+#botones {
+    text-align: center;
+    margin: 30px auto 70px auto;
+}
+
+#encriptar {
+    display: inline-block;
+    width: 15%;
+    background: dodgerblue;
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s background;
+    cursor: pointer;
+}
+
+#encriptar:hover {
+    background: rgb(22, 22, 22)
+}
+
+#invicible {
+    width: 5%;
+    border: none;
+    background: rgb(202, 230, 255);
+}
+
+#desencriptar {
+    display: inline-block;
+    width: 15%;
+    background: dodgerblue;
+    font-size: 18px;
+    font-family: 'Almarai', sans-serif;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s background;
+    cursor: pointer;
+}
+
+#desencriptar:hover {
+    background: rgb(22, 22, 22);
+}
+
+#imprimir {
+    padding: 0 0 59px 0;
+}
+
+#imprimir {
+    text-align: center;
+}
+
+#area-texto {
+    width: 60%;
+    height: 150px;
+    padding: 5px 5px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+    background: white;
+    font-size: 18px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: black;
+    resize: none;
+}
+
+footer {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(22, 22, 22);
+}
